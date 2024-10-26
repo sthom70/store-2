@@ -1,0 +1,29 @@
+{% comment %} Minimal Shopify Theme: White Space & Luxury {% endcomment %}
+
+{% layout 'theme' %}
+
+{% section 'header' %}
+
+{% section 'product-grid' %}
+
+{% section 'footer' %}
+
+{% schema %}
+{
+  "name": "Minimal Luxury Theme",
+  "settings": [
+    {
+      "type": "text",
+      "id": "shop_name",
+      "label": "Shop Name",
+      "default": "My Minimal Luxury Shop"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Default",
+      "category": "Minimal"
+    }
+  ]
+}
+{% endschema %}
